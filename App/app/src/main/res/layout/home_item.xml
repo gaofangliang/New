@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="105dp">
+
+    <RelativeLayout
+        android:background="@drawable/sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/home_img"
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_ltitle"
+            android:layout_toRightOf="@id/home_img"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_digest"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/home_img"
+            android:layout_below="@id/tv_ltitle"/>
+        <TextView
+            android:id="@+id/tv_ptime"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv_digest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05-14 13:25"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

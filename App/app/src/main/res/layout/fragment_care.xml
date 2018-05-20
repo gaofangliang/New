@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linerar"
+    tools:context="com.example.administrator.myapplication.ui.bottimFragment.CareFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FF3366">
+        <com.example.administrator.myapplication.ui.waveview.WaveView
+            android:id="@+id/wave_view"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_gravity="bottom" />
+
+
+        <ImageView
+            android:id="@+id/imagee"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/gfl" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/lhx" />
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/zone"
+        android:background="#c2c0c0"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:src="@mipmap/zone"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="好友动态"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/togglebutton"
+        android:background="#c2c0c0"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:src="@mipmap/togglebutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="日间模式切换"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/about"
+        android:background="#c2c0c0"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:src="@mipmap/about"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="关于"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/add_img"
+    android:src="@mipmap/zone_friend_add"
+    android:layout_width="200dp"
+    android:layout_height="160dp" />
+<TextView
+    android:text="添加跟多感兴趣的内容"
+    android:textColor="#686464"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

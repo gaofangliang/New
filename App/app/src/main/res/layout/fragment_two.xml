@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapplication.ui.bottimFragment.videl.TwoFragment">
+   <com.scwang.smartrefresh.layout.SmartRefreshLayout
+       android:id="@+id/smart"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/video_two"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </android.support.v7.widget.RecyclerView>
+   </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</FrameLayout>

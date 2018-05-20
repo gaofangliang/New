@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="WebView"
+        android:icon="@mipmap/o"
+        android:id="@+id/item_webView">
+    </item>
+
+    <item android:title="用浏览器打开"
+    android:icon="@mipmap/o"
+    android:id="@+id/item_internet">
+    </item>
+
+</menu>
